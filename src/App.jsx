@@ -1,11 +1,10 @@
-import './App.css'
-
-// Aqui solamente ira el router una vez que este listo
-// No importar nada
+import {Learning} from "./pages/Learning";
 
 const App = () =>{
   return(
-    <></>
+    <>
+      <Learning/>
+    </>
   )
 }
 
