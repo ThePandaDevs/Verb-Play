@@ -2,7 +2,7 @@
 const Progress = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 py-5">
-            <div className=" w-auto mr-0 bg-base-100 image-full hero drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] rounded-[25px] md:mr-10" style={{ backgroundImage: "url(../src/assets/confetti.gif" }}>
+            <div className=" w-auto mr-0 my-5 bg-base-100 image-full hero drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] rounded-[25px] md:mr-10" style={{ backgroundImage: "url(../src/assets/confetti.gif" }}>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
                         <h1 className="mb-5 text-3xl font-semibold text-black z-40 ">¡Congratulations!</h1>
@@ -11,7 +11,7 @@ const Progress = () => {
                     </div>
                 </div>
             </div>
-            <div className="p-5 w-auto bg-base-100 drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] rounded-[25px]">
+            <div className="p-5 w-auto my-5 bg-base-100 drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] rounded-[25px]">
                 <h1 className="text-left text-black font-bold">Your level progress</h1>
                 <div className="grid grid-cols-1">
                     <div className="flex items-center justify-around">
@@ -44,7 +44,6 @@ const Progress = () => {
                 </div>
             </div>
         </div>
-
     )
 }
 
