@@ -1,6 +1,6 @@
 import './App.css'
-import Dashboard from './pages/Dashboard';
 import './index.css'
+import MyVerbList from './pages/MyVerbList';
 
 // Aqui solamente ira el router una vez que este listo
 // No importar nada
@@ -8,7 +8,7 @@ import './index.css'
 const App = () =>{
   return(
     <>
-    <Dashboard/>
+    <MyVerbList/>
     </>
   )
 }
