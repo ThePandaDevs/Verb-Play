@@ -6,7 +6,7 @@ import CheckIMG from "../../assets/check.svg";
 export const LastContent = () => {
   return(
       <div>
-          <div className="grid place-items-center p-6">
+          <div className="grid place-items-center p-6 pt-10">
               <h1 className="flex text-center justify-center font-medium text-2xl landing-text">¡Simple plans for everyone!</h1>
               <p className="mt-2 landing-text font-light text-center">Choose the plan you like it, make sure read all benefits that your selected plan includes, we have specific plans for specific users</p>
           </div>
