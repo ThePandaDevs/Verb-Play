@@ -1,10 +1,11 @@
-import {TypeGame} from "../components/learning_components/TypeGame";
-import {LanguageType} from "../components/learning_components/LanguageType";
+import LearningPathType from "../components/learning_components/LearningPathType";
 
 export const Learning = () => {
-  return(
-      <div className="grid h-screen place-items-center">
-          <LanguageType/>
+  return (
+    <>
+      <div className="grid place-items-center">
+        <LearningPathType/>
       </div>
+    </>
   )
 }
