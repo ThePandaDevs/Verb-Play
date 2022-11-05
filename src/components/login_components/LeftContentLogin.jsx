@@ -20,7 +20,7 @@ export const LeftContentLogin = () => {
               </div>
           </div>
           <div className="flex justify-center mt-6">
-              <button className="btn btn-ghost bg-[#00A67E] text-white">Iniciar Sesión</button>
+              <button className="btn btn-ghost bg-[#00A67E] hover:bg-[#00A67E] text-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">Iniciar Sesión</button>
           </div>
           <a className="font-bold mt-3 flex justify-center underline text-[#007A5D]">¿Olvidaste tu contraseña?</a>
           <div className="flex justify-center mt-3">
