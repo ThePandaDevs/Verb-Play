@@ -12,23 +12,23 @@ export const CenterFirstContent = () => {
           <div className="grid place-items-center grid-flow-col auto-cols-auto p-4 mt-10">
               <div className="mr-3 ml-3">
                   <h1 className="font-bold flex justify-center landing-text">Visual</h1>
-                  <p className="font-light flex justify-center landing-text">Learn by seeing and relating patterns</p>
+                  <p className="font-light flex justify-center landing-text text-center">Learn by seeing and relating patterns</p>
                   <div className="flex justify-center mt-2">
-                      <img src={OneIMG} className="w-24"/>
+                      <img src={OneIMG} className="w-24 mt-5"/>
                   </div>
               </div>
               <div className="mr-3 ml-3">
                   <h1 className="font-bold flex justify-center landing-text">Auditory</h1>
-                  <p className="font-light flex justify-center landing-text">Learn by listening and talking</p>
+                  <p className="font-light flex justify-center landing-text text-center">Learn by listening and talking</p>
                   <div className="flex justify-center mt-2">
-                      <img src={TwoIMG} className="w-24"/>
+                      <img src={TwoIMG} className="w-24 mt-5"/>
                   </div>
               </div>
               <div className="mr-3 ml-3">
                   <h1 className="font-bold flex justify-center landing-text">Kinesthetic</h1>
-                  <p className="font-light flex justify-center landing-text">Learn by touching and experimenting</p>
+                  <p className="font-light flex justify-center landing-text text-center">Learn by touching and experimenting</p>
                   <div className="flex justify-center mt-2">
-                      <img src={ThreeIMG} className="w-24"/>
+                      <img src={ThreeIMG} className="w-24 mt-5 "/>
                   </div>
               </div>
           </div>
