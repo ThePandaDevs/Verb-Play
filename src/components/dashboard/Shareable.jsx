@@ -1,4 +1,4 @@
-
+import { motion } from "framer-motion"
 const Shareable = () => {
 
     return (
@@ -33,7 +33,7 @@ const Shareable = () => {
                 <div className="btn w-auto h-auto bg-white my-2 p-4 md:p-4 md:mx-5 lg:mx-5 hover:bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0 ">
                     <div className="grid grid-flow-col gap-4">
                         <div className="row-span-2">
-                            <svg className="w-16 h-16" viewBox="0 0 100 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg className="w-16 h-16 " viewBox="0 0 100 99" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="100" height="99" rx="10" fill="#00CD9C" />
                                 <path d="M27.029 80L88 49.5L27.029 19L27 42.7222L70.5714 49.5L27 56.2778L27.029 80Z" fill="white" />
                             </svg>
