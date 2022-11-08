@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.0.0",
+<<<<<<< HEAD
     "daisyui": "^2.38.1",
+=======
+    "daisyui": "^2.38.0",
+>>>>>>> 1da68c78d822e2d9ab6686a9a94ea5e53117ccb2
     "framer-motion": "^7.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
