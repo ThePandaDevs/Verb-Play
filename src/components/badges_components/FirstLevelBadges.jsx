@@ -3,7 +3,7 @@ import CardBadge from './CardBadge'
 const FirstLevelBadges = () => {
     return (
         <>
-            <p class="text-2xl text-black font-medium mt-10 mb-10" >Complete verbs group 1</p>
+            <p class="text-2xl text-[#00A67E] font-bold pt-5 mt-10 mb-10" >Complete verbs group 1</p>
             <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center">
                 <CardBadge>
                     <img className="h-full justify-self-center" 

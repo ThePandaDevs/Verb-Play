@@ -6,13 +6,13 @@ import MediumLevelBadges from '../components/badges_components/MediumLevelBadges
 const BadgesPage = () => {
 
     return(
-        <>
-            <p class="text-2xl text-[#00A67E] font-bold" >YakuzaEnjoyer’s badges</p>
+        <div >
+            <p class="text-2xl text-[#00A67E] font-bold py-3" >YakuzaEnjoyer’s badges</p>
             <CardInfo />
             <HighLevelBadges />
             <MediumLevelBadges />
             <FirstLevelBadges />
-        </>
+        </div>
     )
 }
 
