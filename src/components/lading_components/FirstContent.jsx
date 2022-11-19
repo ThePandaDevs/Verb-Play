@@ -15,7 +15,6 @@ export const FirstContent = () => {
                 </div>
             </div>
             <div className='w-full bg-[#BBBBBB] py-2'>
-
             </div>
         </>
 
