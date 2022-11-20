@@ -3,7 +3,7 @@ import PeopleIMG from '../../assets/landing-people.svg'
 export const FirstContent = () => {
     return (
         <>
-            <div className="grid place-items-center grid-flow-col auto-cols-auto bg-[#009571] p-6">
+            <div className="grid place-items-center grid-flow-col auto-cols-auto bg-[#009571] p-6 h-1/1">
                 <div>
                     <h1 className="text-white font-medium landing-text text-2xl">Welcome to</h1>
                     <h1 className="text-white text-7xl font-bold landing-font">VerbPlay</h1>

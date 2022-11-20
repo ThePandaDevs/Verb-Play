@@ -48,7 +48,7 @@ export const LeftContentRegister = () => {
           </div>
           <div className="flex justify-center mt-3">
               <p className="font-light">¿Ya tienes una cuenta?</p>
-              <a className="font-bold flex justify-center underline text-[#007A5D] ml-4">Iniciar Sesión</a>
+              <a href="/login" className="font-bold flex justify-center underline text-[#007A5D] ml-4">Iniciar Sesión</a>
           </div>
       </div>
   )

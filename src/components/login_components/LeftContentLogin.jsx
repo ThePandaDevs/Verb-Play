@@ -25,7 +25,7 @@ export const LeftContentLogin = () => {
           <a className="font-bold mt-3 flex justify-center underline text-[#007A5D]">¿Olvidaste tu contraseña?</a>
           <div className="flex justify-center mt-3">
               <p className="font-light">¿No tienes cuenta?</p>
-              <a className="font-bold flex justify-center underline text-[#007A5D] ml-4">Registrate</a>
+              <a href="/register" className="font-bold flex justify-center underline text-[#007A5D] ml-4">Registrate</a>
           </div>
       </div>
   )
