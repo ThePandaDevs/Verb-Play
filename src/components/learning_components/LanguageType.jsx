@@ -2,10 +2,10 @@ import EnglishIMG from "../../assets/eng-esp.svg";
 import SpanishIMG from "../../assets/esp-eng.svg";
 import CespedFooter from "./CespedFooter";
 import { motion } from "framer-motion"
-export const LanguageType = () => {
+const LanguageType = () => {
     return (
         <>
-            <div className="pt-10 mx-2">
+            <div className="pt-10 mx-2 w-3/5">
                 <h1 className="flex justify-center text-4xl font-bold mb-2">Translation</h1>
                 <p className="flex justify-center font-normal text-lg text-center mb-10">
                     Please, select a translation mode according to the way you would like to play and learn
@@ -21,7 +21,7 @@ export const LanguageType = () => {
                         delay: 0.1
                     }}
                 >
-                    <div className="btn w-full normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
+                    <a href="/mode" className="btn w-full normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
                         <div className="grid grid-flow-col auto-cols-auto">
                             <div className="grid items-center">
                                 <h1 className="font-bold text-lg text-left">English to Spanish</h1>
@@ -32,7 +32,7 @@ export const LanguageType = () => {
                                 <img src={EnglishIMG} className="w-16" />
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </motion.div>
 
                 <motion.div
@@ -45,7 +45,7 @@ export const LanguageType = () => {
                         delay: 0.3
                     }}
                 >
-                    <div className="btn w-full normal-case text-left text-black hover:text-white h-auto border-none h-auto shadow p-6 rounded-lg mt-4 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
+                    <a href="/mode" className="btn w-full normal-case text-left text-black hover:text-white h-auto border-none h-auto shadow p-6 rounded-lg mt-4 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
                         <div className="grid grid-flow-col auto-cols-auto">
                             <div className="grid items-center">
                                 <h1 className="font-bold text-lg text-left">Spanish to English</h1>
@@ -55,7 +55,7 @@ export const LanguageType = () => {
                                 <img src={SpanishIMG} className="w-16" />
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </motion.div>
 
             </div>
@@ -64,3 +64,5 @@ export const LanguageType = () => {
 
     )
 }
+
+export default LanguageType;

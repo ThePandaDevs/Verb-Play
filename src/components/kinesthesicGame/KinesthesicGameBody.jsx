@@ -2,7 +2,7 @@
 const KinesthesicGameBody = () => {
     return (
         <>
-            <div className="w-full pt-10">
+            <div className="w-full pt-10 flex justify-center">
                 <div className="w-full md:w-2/3 lg:w-1/2 h-14 m-2 normal-case btn text-white bg-[#00A67E] hover:bg-[#00A67E] border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none">
                     <p className="font-semibold text-lg text-left">Alcanzar / Alcancé / Alcanzado</p>
                 </div>

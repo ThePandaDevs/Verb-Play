@@ -1,13 +1,21 @@
-import {LeftContentRegister} from "../components/register_components/LeftContentRegister";
-import {RightContentRegister} from "../components/register_components/RightContentRegister";
+import { LeftContentRegister } from "../components/register_components/LeftContentRegister";
 
-export const Register = () => {
-  return(
-      <div className="grid h-screen place-items-center">
-          <div className="grid sm:grid-cols-1 md:grid-cols-2">
-              <LeftContentRegister/>
-              <RightContentRegister/>
-          </div>
-      </div>
-  )
+const Register = () => {
+    return (
+        <div className="place-items-center" style={{ backgroundImage: "url(../src/assets/circles.gif" }}>
+            <div class="navbar bg-[#00A67E]">
+                <div class="navbar-start">
+                    <div class="flex-none">
+                        <img className="w-7/12 h-7/12 ml-3" src="../src/assets/logoNav.svg" />
+                    </div>
+                </div>
+            </div>
+            <div className="grid pt-10">
+                <LeftContentRegister />
+            </div>
+            <img src="../src/assets/game-mode.svg" className="w-full p-0" />
+        </div>
+    )
 }
+
+export default Register;
