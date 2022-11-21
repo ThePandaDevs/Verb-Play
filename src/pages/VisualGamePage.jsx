@@ -3,8 +3,8 @@ import VisualGameBody from "../components/visualGame/VisualGameBody";
 const VisualGamePage = () => {
     return (
         <>
-            <VisualGameHeader/>
-            <VisualGameBody/>
+            <VisualGameHeader />
+            <VisualGameBody />
         </>
     )
 }

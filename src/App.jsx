@@ -4,78 +4,79 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import {Landing} from "./pages/Landing.jsx";
-import {Login} from "./pages/Login";
-import {Register} from "./pages/Register";
+import { Landing } from "./pages/Landing.jsx";
+import { Login } from "./pages/Login";
+import { Register } from "./pages/Register";
 import Dashboard from "./pages/Dashboard.jsx";
 import VerbList from "./pages/VerbList.jsx";
-import {Learning} from "./pages/Learning";
+import { Learning } from "./pages/Learning";
 import MyVerbList from "./pages/MyVerbList.jsx";
 import SuscriptionPage from "./pages/SuscriptionPage.jsx";
 import VisualGamePage from "./pages/VisualGamePage.jsx";
 import KinesthesicGamePage from "./pages/KinesthesicGamePage.jsx";
 import BadgesPage from "./pages/BadgesPage.jsx";
 import AuditiveGamePage from "./pages/AuditiveGamePage.jsx";
+import SettingsProfilePage from "./pages/SettingsProfilePage"
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Landing/>,
+        element: <Landing />,
     },
     {
         path: "login",
-        element: <Login/>,
+        element: <Login />,
     },
     {
         path: "register",
-        element: <Register/>,
+        element: <Register />,
     },
     {
         path: "dashboard",
-        element: <Dashboard/>,
+        element: <Dashboard />,
     },
     {
         path: "verblist",
-        element: <VerbList/>,
+        element: <VerbList />,
     },
     {
         path: "learning",
-        element: <Learning/>,
+        element: <Learning />,
     },
     {
         path: "my-verblist",
-        element: <MyVerbList/>,
+        element: <MyVerbList />,
     },
     {
         path: "settings-profile",
-        element: <Learning/>,
+        element: <SettingsProfilePage />,
     },
     {
         path: "suscription",
-        element: <SuscriptionPage/>,
+        element: <SuscriptionPage />,
     },
     {
         path: "visual-game",
-        element: <VisualGamePage/>,
+        element: <VisualGamePage />,
     },
     {
         path: "kinesthetic-game",
-        element: <KinesthesicGamePage/>,
+        element: <KinesthesicGamePage />,
     },
     {
         path: "badges",
-        element: <BadgesPage/>,
+        element: <BadgesPage />,
     },
     {
         path: "auditive-game",
-        element: <AuditiveGamePage/>,
+        element: <AuditiveGamePage />,
     },
 ]);
 
 const App = () => {
-  return (
-      <RouterProvider router={router} />
-  )
+    return (
+        <RouterProvider router={router} />
+    )
 }
 
 export default App;

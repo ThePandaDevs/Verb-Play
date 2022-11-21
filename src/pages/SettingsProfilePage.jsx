@@ -6,8 +6,8 @@ const SettingsProfilePage = () => {
         <>
             <div className="text-2xl font-bold text-[#00A67E] breadcrumbs">
                 <ul>
-                    <li><a>Settings</a></li> 
-                    <li><a>Profile preview</a></li> 
+                    <li><a>Settings</a></li>
+                    <li><a>Profile preview</a></li>
                 </ul>
             </div>
             <div className="flex flex-col mt-2 md:flex-row">

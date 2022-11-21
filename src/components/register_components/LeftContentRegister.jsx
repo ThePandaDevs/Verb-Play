@@ -1,8 +1,8 @@
 export const LeftContentRegister = () => {
   return(
       <div className="p-6">
-          <h1 className="text-3xl font-bold">INICIAR SESIÓN</h1>
-          <p className="font-light">Retoma tus actividades de aprendizaje divirtiéndote</p>
+          <h1 className="text-3xl font-bold text-center">REGISTRATE!</h1>
+          <p className="font-light text-center">haz tus actividades de aprendizaje divirtiéndote</p>
           <div className="flex justify-center mt-6">
               <div className="form-control w-full max-w-xs">
                   <label className="label">
@@ -44,7 +44,7 @@ export const LeftContentRegister = () => {
               </div>
           </div>
           <div className="flex justify-center mt-6">
-              <button className="btn btn-ghost bg-[#00A67E] hover:bg-[#00A67E] text-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">Registrarse</button>
+              <button className="btn btn-ghost bg-[#00A67E] hover:bg-[#00A67E] text-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0  w-full max-w-xs">Registrarse</button>
           </div>
           <div className="flex justify-center mt-3">
               <p className="font-light">¿Ya tienes una cuenta?</p>

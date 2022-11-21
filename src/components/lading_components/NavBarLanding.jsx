@@ -3,67 +3,44 @@ const NavBarLanding = () => {
     return (
         <>
             <div class="navbar bg-[#00A67E] py-5">
-                <div class="flex-none">
-                    <button class="btn btn-square btn-ghost">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                    </button>
-                </div>
-                <div class="flex-1">
-                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-                </div>
-                <div class="flex-none">
-                    <a href="/register" class="btn text-lg px-10 btn-ghost bg-[#00A67E] text-white  text-black mx-2 hover:bg-[#00A67E] drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0 normal-case">
-                        Register
-                    </a>
-                    <a href="/login" class="btn text-lg px-10 btn-ghost bg-white text-black mx-2 hover:bg-white drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0 normal-case">
-                        Login
-                    </a>
-                </div>
-            </div>
-            <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                    <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
+                    <div class="flex-none">
+                        <img className="w-7/12 h-7/12 ml-3" src="../src/assets/logoNav.svg" />
+                    </div>
+                </div>
+
+                <div className="navbar-end">
+                    <div class="navbar-end hidden lg:flex">
+                        <div class="flex-none">
+                            <a href="/register" class="btn text-lg px-10 btn-ghost bg-[#00A67E] text-white  text-black mx-2 hover:bg-[#00A67E] drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0 normal-case">
+                                Register
+                            </a>
+                            <a href="/login" class="btn text-lg px-10 btn-ghost bg-white text-black mx-2 hover:bg-white drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0 normal-case">
+                                Login
+                            </a>
+                        </div>
+                    </div>
+                    <div class="dropdown dropdown-end">
+                        <div className="flex">
+                            <label tabindex="0" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+                            </label>
+
+                        </div>
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Item 1</a></li>
-                            <li tabindex="0">
-                                <a class="justify-between">
-                                    Parent
-                                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+                            <li>
+                                <a href="/register" class="btn text-lg m-2 btn-ghost bg-[#00A67E] text-white  text-black mx-2 hover:bg-[#00A67E] drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0 normal-case">
+                                    Register
+                                </a></li>
+                            <li>
+                                <a href="/login" class="btn text-lg m-2 btn-ghost bg-white text-black mx-2 hover:bg-white drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0 normal-case">
+                                    Login
                                 </a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
                             </li>
-                            <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal p-0">
-                        <li><a>Item 1</a></li>
-                        <li tabindex="0">
-                            <a>
-                                Parent
-                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
-                            </a>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end">
-                    <a class="btn">Get started</a>
                 </div>
             </div>
         </>
