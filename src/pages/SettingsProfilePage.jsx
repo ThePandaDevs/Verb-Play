@@ -1,20 +1,20 @@
 import PersonalData from "../components/settings_profile_components/PersonalData";
 import ProgressData from "../components/settings_profile_components/ProgressData";
+import Drawer from "../components/utilities/Drawer";
+import Header from "../components/utilities/Header";
 
 const SettingsProfilePage = () => {
     return (
-        <>
-            <div className="text-2xl font-bold text-[#00A67E] breadcrumbs">
-                <ul>
-                    <li><a>Settings</a></li>
-                    <li><a>Profile preview</a></li>
-                </ul>
+        <Drawer>
+            <Header />
+            <div className="p-5">
+                <h2 className="card-title text-[#00A67E] font-bold text-3xl py-5">Settings</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2">
+                    <PersonalData />
+                    <ProgressData />
+                </div>
             </div>
-            <div className="flex flex-col mt-2 md:flex-row">
-                <PersonalData />
-                <ProgressData />
-            </div>
-        </>
+        </Drawer>
     )
 }
 
