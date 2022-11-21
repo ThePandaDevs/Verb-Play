@@ -1,9 +1,8 @@
 import { LeftContentRegister } from "../components/register_components/LeftContentRegister";
-import { RightContentRegister } from "../components/register_components/RightContentRegister";
 
-export const Register = () => {
+const Register = () => {
     return (
-        <div className="place-items-center">
+        <div className="place-items-center" style={{ backgroundImage: "url(../src/assets/circles.gif" }}>
             <div class="navbar bg-[#00A67E]">
                 <div class="navbar-start">
                     <div class="flex-none">
@@ -18,3 +17,5 @@ export const Register = () => {
         </div>
     )
 }
+
+export default Register;

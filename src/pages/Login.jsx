@@ -1,9 +1,8 @@
 import { LeftContentLogin } from "../components/login_components/LeftContentLogin";
-import { RightContentLogin } from "../components/login_components/RightContentLogin";
 
-export const Login = () => {
+const Login = () => {
     return (
-        <div className="place-items-center">
+        <div className="place-items-center" style={{ backgroundImage: "url(../src/assets/circles.gif" }}>
             <div class="navbar bg-[#00A67E]">
                 <div class="navbar-start">
                     <div class="flex-none">
@@ -18,3 +17,5 @@ export const Login = () => {
         </div>
     )
 }
+
+export default Login;

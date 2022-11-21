@@ -4,7 +4,7 @@ import {CenterLastContent} from "../components/lading_components/CenterLastConte
 import {LastContent} from "../components/lading_components/LastContent";
 import NavBarLanding from "../components/lading_components/NavBarLanding";
 
-export const Landing = () => {
+const Landing = () => {
   return(
       <div className="min-h-screen">
           <NavBarLanding/>
@@ -15,3 +15,5 @@ export const Landing = () => {
       </div>
   )
 }
+
+export default Landing;

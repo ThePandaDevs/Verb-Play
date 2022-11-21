@@ -3,8 +3,11 @@ import CardBadge from './CardBadge'
 const FirstLevelBadges = () => {
     return (
         <>
-            <p class="text-2xl text-[#00A67E] font-bold pt-5 mt-10 mb-10 text-center" >Complete verbs group 1</p>
-            <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center">
+            <img src="../src/assets/game-mode.svg" className="w-full mt-10" />
+            <div className="h-1/1 rounded-b-lg w-full bg-[#00A67E]">
+                <p class="text-2xl text-white pb-5 font-bold text-center" >Complete verbs group 1</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center mt-10">
                 <CardBadge>
                     <img className="h-full justify-self-center"
                         src="../src/assets/bg-1.6.svg" />
@@ -18,7 +21,7 @@ const FirstLevelBadges = () => {
                         src="../src/assets/bg-1.8.svg" />
                 </CardBadge>
             </div>
-            <div className="grid grid-cols-2 justify-items-center md:grid-cols-5 mt-10">
+            <div className="grid grid-cols-2 justify-items-center md:grid-cols-5 mt-10 mb-10">
                 <div className="h-36 w-36 card mx-50 bg-base shadow-2xl justify-center">
                     <img className="justify-self-center h-full"
                         src="../src/assets/bg-1.1.svg" />

@@ -4,19 +4,21 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import { Landing } from "./pages/Landing.jsx";
-import { Login } from "./pages/Login";
-import { Register } from "./pages/Register";
+import Landing from "./pages/Landing.jsx";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard.jsx";
 import VerbList from "./pages/VerbList.jsx";
-import { Learning } from "./pages/Learning";
+import LearningPage from "./pages/LearningPage.jsx";
+import LanguagePage from "./pages/LanguagePage.jsx";
+import ModePage from "./pages/TypeGamePage.jsx";
 import MyVerbList from "./pages/MyVerbList.jsx";
 import SuscriptionPage from "./pages/SuscriptionPage.jsx";
 import VisualGamePage from "./pages/VisualGamePage.jsx";
 import KinesthesicGamePage from "./pages/KinesthesicGamePage.jsx";
 import BadgesPage from "./pages/BadgesPage.jsx";
 import AuditiveGamePage from "./pages/AuditiveGamePage.jsx";
-import SettingsProfilePage from "./pages/SettingsProfilePage"
+import SettingsProfilePage from "./pages/SettingsProfilePage.jsx"
 
 const router = createBrowserRouter([
     {
@@ -41,7 +43,15 @@ const router = createBrowserRouter([
     },
     {
         path: "learning",
-        element: <Learning />,
+        element: <LearningPage />,
+    },
+    {
+        path: "language",
+        element: <LanguagePage />,
+    },
+    {
+        path: "mode",
+        element: <ModePage />,
     },
     {
         path: "my-verblist",

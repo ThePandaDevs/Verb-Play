@@ -4,7 +4,7 @@ import CespedFooter from "./CespedFooter";
 import VisualIMG from '../../assets/visual.svg'
 import { motion } from "framer-motion"
 
-export const TypeGame = () => {
+const TypeGame = () => {
     return (
         <>
             <div className="pt-10 mx-5 w-auto md:w-2/3 lg:w-2/3">
@@ -23,7 +23,7 @@ export const TypeGame = () => {
                         delay: 0.1
                     }}
                 >
-                    <div className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
+                    <a href="/auditive-game" className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
                         <div className="grid items-center">
                             <h1 className="font-bold text-lg text-left">Auditory</h1>
                             <p className="font-light text-normal">You store information by the way it sounds, and you have an easier time understanding spoken instructions than written ones.</p>
@@ -31,7 +31,7 @@ export const TypeGame = () => {
                         <div className="grid items-center justify-end">
                             <img src={AuditoryIMG} className="w-16" />
                         </div>
-                    </div>
+                    </a>
                 </motion.div>
 
                 <motion.div
@@ -44,7 +44,7 @@ export const TypeGame = () => {
                         delay: 0.3
                     }}
                 >
-                    <div className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
+                    <a href="/kinesthetic-game" className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
                         <div className="grid items-center">
                             <h1 className="font-bold text-lg text-left">Kinesthetic</h1>
                             <p className="font-light text-normal w-auto">You are a "hands-on" learner who prefers to touch, move, build, or draw what you learn.</p>
@@ -52,7 +52,7 @@ export const TypeGame = () => {
                         <div className="grid items-center justify-end">
                             <img src={KinestheticIMG} className="w-16" />
                         </div>
-                    </div>
+                    </a>
                 </motion.div>
 
                 <motion.div
@@ -65,7 +65,7 @@ export const TypeGame = () => {
                         delay: 0.5
                     }}
                 >
-                    <div className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
+                    <a href="/visual-game" className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
                         <div className="grid items-center">
                             <h1 className="font-bold text-lg text-left">Visual</h1>
                             <p className="font-light text-normal">You learn best by using methods that are primarily visual. You like to see what you are learning.</p>
@@ -73,10 +73,12 @@ export const TypeGame = () => {
                         <div className="grid items-center justify-end ">
                             <img src={VisualIMG} className="w-16" />
                         </div>
-                    </div>
+                    </a>
                 </motion.div>
             </div>
             <CespedFooter />
         </>
     )
 }
+
+export default TypeGame;
