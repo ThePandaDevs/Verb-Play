@@ -2,10 +2,12 @@ import {FirstContent} from "../components/lading_components/FirstContent";
 import {CenterFirstContent} from "../components/lading_components/CenterFirstContent";
 import {CenterLastContent} from "../components/lading_components/CenterLastContent";
 import {LastContent} from "../components/lading_components/LastContent";
+import NavBarLanding from "../components/lading_components/NavBarLanding";
 
-export const Landing = () => {
+const Landing = () => {
   return(
-      <div className="h-screen">
+      <div className="min-h-screen">
+          <NavBarLanding/>
           <FirstContent/>
           <CenterFirstContent/>
           <CenterLastContent/>
@@ -13,3 +15,5 @@ export const Landing = () => {
       </div>
   )
 }
+
+export default Landing;

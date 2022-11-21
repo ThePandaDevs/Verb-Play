@@ -21,7 +21,7 @@ const LearningPathType = () => {
                         delay: 0.1
                     }}
                 >
-                    <div className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
+                    <a href="/language" className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
                         <div className="grid items-center">
                             <h1 className="font-bold text-lg text-left">VerbPlay List</h1>
                             <p className="font-light text-normal">Learn verbs through the VerbPlay path, it contains different levels of difficulty, win trophies and special medals!</p>
@@ -29,7 +29,7 @@ const LearningPathType = () => {
                         <div className="grid items-center justify-end ">
                             <img src={G1} className="w-16" />
                         </div>
-                    </div>
+                    </a>
                 </motion.div>
 
                 <motion.div
@@ -42,7 +42,7 @@ const LearningPathType = () => {
                         delay: 0.3
                     }}
                 >
-                    <div className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
+                    <a href="/language" className="btn grid grid-cols-2 normal-case text-left text-black hover:text-white h-auto shadow p-6 rounded-lg mt-5 bg-white border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
                         <div className="grid items-center">
                             <h1 className="font-bold text-lg text-left">My Own List</h1>
                             <p className="font-light text-normal">Special list according to what you need to learn, you can add more by going to "Verbs List".</p>
@@ -50,7 +50,7 @@ const LearningPathType = () => {
                         <div className="grid items-center justify-end ">
                             <img src={G2} className="w-16" />
                         </div>
-                    </div>
+                    </a>
                 </motion.div>
 
             </div>
