@@ -1,4 +1,4 @@
-import { WelcomeLogo } from "../../../src/assets/dashboard-gift.svg"
+import WelcomeLogo from "../../../src/assets/dashboard-gift.svg"
 const WelcomeHeader = () => {
     return (
         <>

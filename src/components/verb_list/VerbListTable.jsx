@@ -1,4 +1,4 @@
-import { Mark } from "../../../src/assets/mark.svg"
+import Mark from "../../../src/assets/mark.svg"
 const VerbListTable = () => {
     return (
         <>

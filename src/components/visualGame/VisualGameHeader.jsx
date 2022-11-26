@@ -1,4 +1,4 @@
-import { Hint } from "../../../src/assets/show-idea.svg"
+import Hint from "../../../src/assets/show-idea.svg"
 const VisualGameHeader = () => {
     return (
         <>

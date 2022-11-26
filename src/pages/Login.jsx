@@ -1,5 +1,5 @@
 import { LeftContentLogin } from "../components/login_components/LeftContentLogin";
-import { BackgroundGif } from "../../src/assets/circles.gif"
+import BackgroundGif from "../../src/assets/circles.gif"
 
 const Login = () => {
     return (

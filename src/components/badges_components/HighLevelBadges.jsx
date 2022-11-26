@@ -1,8 +1,8 @@
 import CardBadge from "./CardBadge"
 import { motion } from "framer-motion"
-import { BG33 } from "../../../src/assets/bg-3.3.svg"
-import { BG32 } from "../../../src/assets/bg-3.2.svg"
-import { BG31 } from "../../../src/assets/bg-3.1.svg"
+import BG33 from "../../../src/assets/bg-3.3.svg"
+import BG32 from "../../../src/assets/bg-3.2.svg"
+import BG31 from "../../../src/assets/bg-3.1.svg"
 const HighLevelBadges = () => {
 
     return (

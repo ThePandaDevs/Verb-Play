@@ -1,5 +1,5 @@
 
-import { Hint } from "../../../src/assets/show-idea.svg"
+import Hint from "../../../src/assets/show-idea.svg"
 const KinesthesicGameHeader = () => {
     return (
         <>
