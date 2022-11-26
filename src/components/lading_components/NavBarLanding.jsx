@@ -1,4 +1,4 @@
-import { Logo } from "../../../src/assets/logoNav.svg"
+import Logo from "../../../src/assets/logoNav.svg"
 
 const NavBarLanding = () => {
     return (

@@ -1,4 +1,4 @@
-import { Cesped } from "../../../src/assets/game-mode.svg"
+import Cesped from "../../../src/assets/game-mode.svg"
 const CespedFooter = () => {
 
     return (

@@ -1,5 +1,5 @@
 import { LeftContentRegister } from "../components/register_components/LeftContentRegister";
-import { BackgroundGif } from "../../src/assets/circles.gif"
+import BackgroundGif from "../../src/assets/circles.gif"
 
 const Register = () => {
     return (

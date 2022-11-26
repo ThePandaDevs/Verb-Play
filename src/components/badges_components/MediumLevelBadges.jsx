@@ -1,13 +1,13 @@
 import CardBadge from "./CardBadge"
-import { BG26 } from "../../../src/assets/bg-2.6.svg"
-import { BG27 } from "../../../src/assets/bg-2.7.svg"
-import { BG28 } from "../../../src/assets/bg-2.8.svg"
+import BG26 from "../../../src/assets/bg-2.6.svg"
+import BG27 from "../../../src/assets/bg-2.7.svg"
+import BG28 from "../../../src/assets/bg-2.8.svg"
 
-import { BG21 } from "../../../src/assets/bg-2.1.svg"
-import { BG22 } from "../../../src/assets/bg-2.2.svg"
-import { BG23 } from "../../../src/assets/bg-2.3.svg"
-import { BG24 } from "../../../src/assets/bg-2.4.svg"
-import { BG25 } from "../../../src/assets/bg-2.5.svg"
+import BG21 from "../../../src/assets/bg-2.1.svg"
+import BG22 from "../../../src/assets/bg-2.2.svg"
+import BG23 from "../../../src/assets/bg-2.3.svg"
+import BG24 from "../../../src/assets/bg-2.4.svg"
+import BG25 from "../../../src/assets/bg-2.5.svg"
 
 const MediumLevelBadges = () => {
     return (

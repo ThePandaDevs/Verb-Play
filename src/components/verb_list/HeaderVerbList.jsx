@@ -1,5 +1,5 @@
 import { MdSearch } from "react-icons/md";
-import { Mark } from "../../../src/assets/mark.svg"
+import Mark from "../../../src/assets/mark.svg"
 const HeaderVerbList = () => {
     return (
         <>

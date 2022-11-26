@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import {Confetti} from "../../../src/assets/confetti.gif"
+import Confetti from "../../../src/assets/confetti.gif"
 const Progress = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 py-5">

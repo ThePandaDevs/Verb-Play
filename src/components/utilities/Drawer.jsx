@@ -1,6 +1,6 @@
 import { Children } from "react"
-import {Trial} from "../../../src/assets/trial.svg"
-import {DrawerLogo} from "../../../src/assets/logoDrawer.svg"
+import Trial from "../../../src/assets/trial.svg"
+import DrawerLogo from "../../../src/assets/logoDrawer.svg"
 const Drawer = ({ children }) => {
     return (
         <>
