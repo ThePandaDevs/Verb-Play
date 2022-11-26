@@ -1,5 +1,6 @@
 import { Children } from "react"
-
+import {Trial} from "../../../src/assets/trial.svg"
+import {DrawerLogo} from "../../../src/assets/logoDrawer.svg"
 const Drawer = ({ children }) => {
     return (
         <>
@@ -15,7 +16,7 @@ const Drawer = ({ children }) => {
 
                     <ul class="menu p-4 w-80 bg-base-100 text-base-content ">
                         <div className="flex justify-start py-5">
-                            <img className="w-7/12 h-7/12 ml-3 text-center" src="../src/assets/logoDrawer.svg" />
+                            <img className="w-7/12 h-7/12 ml-3 text-center" src={DrawerLogo} />
                         </div>
                         <li className="pt-5">
                             <a href="/dashboard" className="text-lg btn-ghost bg-white text-black  active:drop-shadow-none hover:-translate-y-0 normal-case">
@@ -69,7 +70,7 @@ const Drawer = ({ children }) => {
                                 Settings
                             </a>
                         </li>
-                        <img className="pt-10" src="../src/assets/trial.svg" />
+                        <img className="pt-10" src={Trial} />
                         <li >
                             <a className="grid -translate-y-[70px] text-center text-lg bg-[#00A67E] text-white text-black hover:bg-[#00A67E] drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none normal-case">
                                 Upgrade plan

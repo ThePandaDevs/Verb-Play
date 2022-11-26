@@ -1,4 +1,4 @@
-
+import { Mark } from "../../../src/assets/mark.svg"
 const VerbListTable = () => {
     return (
         <>
@@ -26,7 +26,7 @@ const VerbListTable = () => {
                             <th className="font-semibold text-center">
                                 <div className="tooltip" data-tip="Add to my verbs">
                                     <button className="btn mx-3 w-full bg-[#F9F9F9] border-none hover:bg-[#F9F9F9] border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
-                                        <img src="../src/assets/mark.svg" className="w-5 h-10" />
+                                        <img src={Mark} className="w-5 h-10" />
                                     </button>
                                 </div>
                             </th>
@@ -45,7 +45,7 @@ const VerbListTable = () => {
                             <th className="font-semibold text-center">
                                 <div className="tooltip" data-tip="Add to my verbs">
                                     <button className="btn mx-3 w-full bg-[#F9F9F9] border-none hover:bg-[#F9F9F9] border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
-                                        <img src="../src/assets/mark.svg" className="w-5 h-10" />
+                                        <img src={Mark} className="w-5 h-10" />
                                     </button>
                                 </div>
                             </th>
@@ -64,7 +64,7 @@ const VerbListTable = () => {
                             <th className="font-semibold text-center">
                                 <div className="tooltip" data-tip="Add to my verbs">
                                     <button className="btn mx-3 w-full bg-[#F9F9F9] border-none hover:bg-[#F9F9F9] border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
-                                        <img src="../src/assets/mark.svg" className="w-5 h-10" />
+                                        <img src={Mark} className="w-5 h-10" />
                                     </button>
                                 </div>
                             </th>

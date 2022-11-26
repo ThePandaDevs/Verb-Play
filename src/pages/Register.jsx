@@ -1,8 +1,9 @@
 import { LeftContentRegister } from "../components/register_components/LeftContentRegister";
+import { BackgroundGif } from "../../src/assets/circles.gif"
 
 const Register = () => {
     return (
-        <div className="place-items-center" style={{ backgroundImage: "url(../src/assets/circles.gif" }}>
+        <div className="place-items-center" style={{ backgroundImage: URL(BackgroundGif) }}>
             <div class="navbar bg-[#00A67E]">
                 <div class="navbar-start">
                     <div class="flex-none">

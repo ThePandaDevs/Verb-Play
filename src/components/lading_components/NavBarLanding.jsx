@@ -1,3 +1,4 @@
+import { Logo } from "../../../src/assets/logoNav.svg"
 
 const NavBarLanding = () => {
     return (
@@ -5,7 +6,7 @@ const NavBarLanding = () => {
             <div class="navbar bg-[#00A67E] py-5">
                 <div class="navbar-start">
                     <div class="flex-none">
-                        <img className="w-7/12 h-7/12 ml-3" src="../src/assets/logoNav.svg" />
+                        <img className="w-7/12 h-7/12 ml-3" src={Logo} />
                     </div>
                 </div>
 
