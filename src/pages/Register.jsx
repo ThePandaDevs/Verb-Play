@@ -1,5 +1,6 @@
 import { LeftContentRegister } from "../components/register_components/LeftContentRegister";
 import BackgroundGif from "../../src/assets/circles.gif"
+import Logo from "../../src/assets/logoNav.svg"
 
 const Register = () => {
     return (
@@ -7,7 +8,7 @@ const Register = () => {
             <div class="navbar bg-[#00A67E]">
                 <div class="navbar-start">
                     <div class="flex-none">
-                        <img className="w-7/12 h-7/12 ml-3" src="../src/assets/logoNav.svg" />
+                        <img className="w-7/12 h-7/12 ml-3" src={Logo} />
                     </div>
                 </div>
             </div>
