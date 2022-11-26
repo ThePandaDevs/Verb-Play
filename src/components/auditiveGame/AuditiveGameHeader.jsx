@@ -1,3 +1,4 @@
+import { Hint } from "../../../src/assets/show-idea.svg"
 
 const AuditiveGameHeader = () => {
     return (
@@ -21,9 +22,9 @@ const AuditiveGameHeader = () => {
 
                     </div>
                     <div className="tooltip ml-8" data-tip="Show answer">
-                    <span class="animate-[2s_ping_infinite] absolute  h-full w-full rounded-md bg-[#FABE2C] opacity-40"></span>
+                        <span class="animate-[2s_ping_infinite] absolute  h-full w-full rounded-md bg-[#FABE2C] opacity-40"></span>
                         <button className="btn bg-[#00A67E] hover:bg-[#FABE2C] border-none drop-shadow-[0_5px_0px_rgba(0,0,0,0.25)] active:drop-shadow-none -translate-y-0">
-                            <img className="w-10 h-10" src="../src/assets/show-idea.svg"/>
+                            <img className="w-10 h-10" src={Hint} />
                         </button>
                     </div>
                 </div>

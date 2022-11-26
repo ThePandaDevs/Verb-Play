@@ -1,8 +1,9 @@
 import { LeftContentLogin } from "../components/login_components/LeftContentLogin";
+import { BackgroundGif } from "../../src/assets/circles.gif"
 
 const Login = () => {
     return (
-        <div className="place-items-center" style={{ backgroundImage: "url(../src/assets/circles.gif" }}>
+        <div className="place-items-center" style={{ backgroundImage: URL(BackgroundGif) }}>
             <div class="navbar bg-[#00A67E]">
                 <div class="navbar-start">
                     <div class="flex-none">

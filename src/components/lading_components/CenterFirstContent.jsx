@@ -1,6 +1,7 @@
 import OneIMG from "../../assets/auditory.svg";
 import TwoIMG from "../../assets/kinesthetic.svg";
 import ThreeIMG from "../../assets/visual.svg";
+import Grass from "../../../src/assets/game-mode.svg"
 
 export const CenterFirstContent = () => {
     return (
@@ -32,7 +33,7 @@ export const CenterFirstContent = () => {
                     </div>
                 </div>
             </div>
-            <img src="../src/assets/game-mode.svg" className="w-full p-0" />
+            <img src={Grass} className="w-full p-0" />
         </div>
     )
 }
