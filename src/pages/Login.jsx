@@ -3,7 +3,7 @@ import BackgroundGif from "../../src/assets/circles.gif"
 
 const Login = () => {
     return (
-        <div className="place-items-center" style={{ backgroundImage: URL(BackgroundGif) }}>
+        <div className="place-items-center" style={{ backgroundImage: `url(${BackgroundGif})` }}>
             <div class="navbar bg-[#00A67E]">
                 <div class="navbar-start">
                     <div class="flex-none">
