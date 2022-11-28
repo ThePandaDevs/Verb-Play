@@ -11,7 +11,7 @@ const Progress = () => {
                     type: "spring",
                     stiffness: 260,
                     damping: 20,
-                    delay: 0.1
+                    delay: 0.8
                 }}
             >
                 <div className=" w-auto mr-0 my-5 bg-base-100 image-full hero drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] rounded-[25px] md:mr-10" style={{ backgroundImage: `url(${Confetti})` }}>
@@ -32,7 +32,7 @@ const Progress = () => {
                     type: "spring",
                     stiffness: 260,
                     damping: 20,
-                    delay: 0.1
+                    delay: 0.8
                 }}
             >
                 <div className="p-5 w-auto my-5 bg-base-100 drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] rounded-[25px]">
