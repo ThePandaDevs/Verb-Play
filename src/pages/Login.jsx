@@ -1,6 +1,7 @@
 import { LeftContentLogin } from "../components/login_components/LeftContentLogin";
 import BackgroundGif from "../../src/assets/circles.gif"
 import Logo from "../../src/assets/logoNav.svg"
+import Cesped from "../../src/assets/game-mode.svg"
 
 const Login = () => {
     return (
@@ -15,7 +16,7 @@ const Login = () => {
             <div className="grid pt-10">
                 <LeftContentLogin />
             </div>
-            <img src="../src/assets/game-mode.svg" className="w-full fixed bottom-0" />
+            <img src={Cesped} className="w-full fixed bottom-0" />
         </div>
     )
 }

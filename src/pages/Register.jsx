@@ -1,6 +1,7 @@
 import { LeftContentRegister } from "../components/register_components/LeftContentRegister";
 import BackgroundGif from "../../src/assets/circles.gif"
 import Logo from "../../src/assets/logoNav.svg"
+import Cesped from "../../src/assets/game-mode.svg"
 
 const Register = () => {
     return (
@@ -15,7 +16,7 @@ const Register = () => {
             <div className="grid pt-10">
                 <LeftContentRegister />
             </div>
-            <img src="../src/assets/game-mode.svg" className="w-full p-0" />
+            <img src={Cesped} className="w-full p-0" />
         </div>
     )
 }
