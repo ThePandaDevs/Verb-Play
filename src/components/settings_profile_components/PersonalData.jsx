@@ -1,14 +1,14 @@
-const PersonalData = () => {
+const PersonalData = ({user}) => {
     return (
         <>
-            <div className="flex basis-2/5 flex-col bg-[#00A67E] rounded-lg drop-shadow-lg">
+            <div className="flex basis-2/5 flex-col bg-[#00A67E] shadow-md m-3 rounded-lg">
                 <div className="avatar self-center">
-                    <div className="w-36 rounded-full mt-10">
-                        <img src="https://placeimg.com/192/192/people" />
+                    <div className="w-36 rounded-full mt-10 bg-white shadow-lg p-2">
+                        <img src={`https://avatars.dicebear.com/api/big-smile/${user.userName}.svg`} />
                     </div>
                 </div>
-                <p className="text-xl font-bold text-[#ffff] mt-10 text-center">Esmeralda Lara Arroyo</p>
-                <p className="text-lg text-[#ffff] text-center">@esmeLara</p>
+                <p className="text-xl font-bold text-[#ffff] mt-10 text-center">{user.name} {user.lastName}</p>
+                <p className="text-lg text-[#ffff] text-center">@{user.userName}</p>
                 <div className="flex flex-row justify-around">
                     <div className="flex-col">
 
@@ -33,8 +33,8 @@ const PersonalData = () => {
             <div className="modal">
                 <div className="modal-box w-11/12 max-w-3xl">
                     <div className="avatar self-center drop-shadow-lg">
-                        <div className="w-36 rounded-full my-8">
-                            <img src="https://placeimg.com/192/192/people" />
+                        <div className="w-36 rounded-full mt-10 bg-white shadow-lg p-2">
+                            <img src={`https://avatars.dicebear.com/api/big-smile/${user.userName}.svg`} />
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row md:items-center">

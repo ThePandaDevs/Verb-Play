@@ -1,4 +1,4 @@
-export const getApiUrl = (path) => `https://szdguzpruwwvtoimdfyk.supabase.co/${path}`;
+export const getApiUrl = (path) => `http://localhost:3000/${path}`;
 
 
 /*

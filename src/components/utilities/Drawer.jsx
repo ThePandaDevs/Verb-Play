@@ -27,7 +27,7 @@ const Drawer = ({ children }) => {
                             </a>
                         </li>
                         <li className="py-2">
-                            <a href="/learning" className="text-lg btn-ghost bg-white text-black  active:drop-shadow-none hover:-translate-y-0 normal-case">
+                            <a href="/mode" className="text-lg btn-ghost bg-white text-black  active:drop-shadow-none hover:-translate-y-0 normal-case">
                                 <svg class="w-6 h-6 mr-2 text-[#00A67E] fill-current" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M26 11V0H14V11L20 17L26 11ZM11 14H0V26H11L17 20L11 14ZM14 29V40H26V29L20 23L14 29ZM29 14L23 20L29 26H40V14H29Z" />
                                 </svg>

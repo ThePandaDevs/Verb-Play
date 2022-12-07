@@ -1,8 +1,14 @@
-const ProgressCourses = () => {
+import {useEffect, useState} from "react";
+import {VerbService} from "../../services/VerbService.js";
+import {Notify} from "notiflix";
+import {UserService} from "../../services/UserService.js";
+
+const ProgressCourses = ({user}) => {
+
     return (
         <>
             <div className="w-auto my-5">
-                <h1 className="text-left text-black font-bold text-xl my-5">Esmeralda's progress groups</h1>
+                <h1 className="text-left text-black font-bold text-xl my-5">{user.userName} progress groups</h1>
                 <div className="grid grid-cols-1">
                     <div className="flex items-center justify-around ">
                         <svg className="w-12 h-12 " viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
