@@ -15,6 +15,7 @@ import GameFailed from '../assets/audio/40 Ambush!.mp3'
 const AuditiveGamePage = () => {
     const [verbs,setVerbs] = useState(null)
     const [verb,setVerb] = useState("")
+    const [flag,setFlag] = useState(false)
     const userService = new UserService()
     // Text to Speech
     const msg = new SpeechSynthesisUtterance()
@@ -47,23 +48,22 @@ const AuditiveGamePage = () => {
                 list.push(suffleList[2])
                 setVerbs(list)
                 setVerb(list[random(0,3)].name)
+                setFlag(true)
             })
-            .catch(()=>{
-
-            })
+            .catch(()=>{})
     }
 // window.speechSynthesis.speak(msg)
     useEffect(()=>{
-        if (verb!=""){
+        if (flag==true){
             Report.info('Are You Ready? 😎👌','Listen Carefully The Next Audio 🔊',
                 'Okay',
                 ()=>{
-                msg.text = verb
+                    msg.text = verb
                     window.speechSynthesis.speak(msg)
                 }
             )
         }
-    },[verb])
+    },[flag])
 
 
     useEffect(() => {
