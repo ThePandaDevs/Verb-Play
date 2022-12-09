@@ -6,7 +6,7 @@ import {Howl} from 'howler';
 import GameAuditive from '../assets/audio/05 Choose a File.mp3'
 import {useEffect, useState} from "react";
 import {UserService} from "../services/UserService.js";
-import {sample} from "lodash";
+import {random, sample, shuffle} from "lodash";
 import {Report} from "notiflix/build/notiflix-report-aio";
 import GameCorrect from '../assets/audio/18 A Good Buddy.mp3'
 import GameFailed from '../assets/audio/40 Ambush!.mp3'
@@ -41,14 +41,12 @@ const AuditiveGamePage = () => {
             .then((res)=>res.json())
             .then((data)=>{
                 let list = []
-                for (let i = 0; i < 3; i++) {
-                    let random = sample(data.verbs)
-                    if (list.find(v=> v==random)){
-                        list.push(sample(data.verbs))
-                    }
-                    list.push(random)
-                }
+                let suffleList = shuffle(data.verbs)
+                list.push(suffleList[0])
+                list.push(suffleList[1])
+                list.push(suffleList[2])
                 setVerbs(list)
+                setVerb(list[random(0,3)].name)
             })
             .catch(()=>{
 
@@ -67,14 +65,6 @@ const AuditiveGamePage = () => {
         }
     },[verb])
 
-    useEffect(()=>{
-        if (verbs!=null){
-            setTimeout(()=>{
-                let rnd = Math.floor(Math.random() * 4);
-                setVerb(verbs[rnd].name)
-            },2000)
-        }
-    },[verbs])
 
     useEffect(() => {
         getInfoUser()

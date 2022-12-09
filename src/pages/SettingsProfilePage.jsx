@@ -33,7 +33,7 @@ const SettingsProfilePage = () => {
                 <h2 className="card-title text-[#00A67E] font-bold text-3xl py-5">Settings</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <PersonalData user={user}/>
-                    <ProgressData user={user}/>
+                    <ProgressData user={user} />
                 </div>
             </div>
         </Drawer>

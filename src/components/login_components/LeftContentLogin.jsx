@@ -2,6 +2,7 @@ import {useState} from "react";
 import {popUpNotification} from "../../utilities/Notifications.js";
 import {LoginService} from "../../services/LoginService.js";
 import { useNavigate } from "react-router-dom";
+import {Notify} from "notiflix";
 export const LeftContentLogin = () => {
     const [user,setUser] = useState({userName:'',password:''})
     const navigate = useNavigate();
@@ -19,14 +20,14 @@ export const LeftContentLogin = () => {
             .then((data)=>{
                 if (data.info!="404"){
                     localStorage.id = data.id
-                    popUpNotification('success','Success','Successful login',false,false,true)
+                    Notify.success('Successful login')
                     navigate('/dashboard')
                 }else{
-                    popUpNotification('warning','Attention','Check your data',true,false,true)
+                    Notify.warning('Attention!, Check your data')
                 }
             })
             .catch(()=>{
-                popUpNotification('error','Error','Error in Server App',true,false,true)
+                Notify.failure('Error in Server App')
             })
     }
 

@@ -21,4 +21,22 @@ export class UserService {
         })
     }
 
+    getPercentUser(id){
+        return fetch(getApiUrl(`users/verbsPercent/${id}`),{
+            method: 'GET',
+            headers: {
+                'Content-type': 'application/json',
+            },
+        })
+    }
+
+
+    getCountVerbs(id){
+        return fetch(getApiUrl(`users/countVerbs/${id}`),{
+            method: 'GET',
+            headers: {
+                'Content-type': 'application/json',
+            },
+        })
+    }
 }
